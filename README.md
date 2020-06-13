@@ -147,4 +147,4 @@ Sub AllStockAnalysisRefactor()
 End Sub
 ```
 
-The result of this new code should be improved efficiency, especially when dealing with much larger datasets.
+The result of this new code should be improved efficiency, especially when dealing with much larger datasets. As for the current data set, the only two stocks that had gains in both years were ENPH and RUN. I would recommend that Steve's parents invest in these two stocks as opposed to DQ.
