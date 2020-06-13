@@ -50,13 +50,16 @@ Sub AllStockAnalysisRefactor()
 
    '3a) Initialize arrays for starting price and ending price
 
-    Dim startingPrice(11) As Single
-    Dim endingPrice(11) As Single
-    Dim volume(11) As Double
-    Dim tickerIndex As Integer
+   Dim startingPrice(11) As Single
+   Dim endingPrice(11) As Single
+   Dim volume(11) As Double
+   Dim tickerIndex As Integer
 
-    '3b) Run a for loop to set all indexes to zero
-    For i = 0 To 11
+    'set up a variable to use in loops
+   tickerIndex = 0
+
+   '3b) Run a for loop to set all indexes to zero
+   For i = 0 To 11
 
         startingPrice(i) = 0
         endingPrice(i) = 0
@@ -64,8 +67,7 @@ Sub AllStockAnalysisRefactor()
 
     Next i
 
-   'set up a variable to use in loops
-   tickerIndex = 0
+
 
    '3c) Activate data worksheet
 
@@ -138,7 +140,10 @@ Sub AllStockAnalysisRefactor()
             Cells(4 + i, 3).Interior.Color = xlNone
 
         End If
+
     Next i
+
+
 End Sub
 ```
 
