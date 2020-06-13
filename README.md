@@ -9,7 +9,7 @@ We were challenged with developing a new code that would run through the data sh
 
 1. We reversed the order of the loops
 2. We had to create arrays for the volume, starting price, and ending price of all stocks
-3. Added for loop to sett the arrays all to zero
+3. Added for loop to set the arrays all to zero
 4. Added  for loop to display values in the appropriate cells
 
 The new code is displayed below:
