@@ -3,7 +3,7 @@ Module 2 of bootcamp
 
 ### Challenge
 
-During the course of working through the module lessons, we learned how to create nest For loops to allow for the analysis of all the stocks in the data for specific years.  While the code we wrote worked, it was inefficient due to the fact that the loop had to run 12 times over the entire data set. We knew there was a better way to approach this solution.
+During the course of working through the module lessons, we learned how to create nested For loops to allow for the analysis of all the stocks in the data for specific years.  While the code we wrote worked, it was inefficient due to the fact that the loop had to run 12 times over the entire data set. We knew there was a better way to approach this solution.
 
 We were challenged with developing a new code that would run through the data sheet once, with the same yield. To do this we would have to make a few adjustments to our original code:
 
