@@ -3,13 +3,13 @@ Module 2 of bootcamp
 
 ### Challenge
 
-During the course of working through the module lessons, we learned how to create nest For loops to allow for the analysis of all the stocks in the data for specific years.  While the code we wrote worked, it was inefficient due to the fact that the loop had to run 12 times over the entire data set. We knew there was a better way to approach this solution.
+During the course of working through the module lessons, we learned how to create nested For loops to allow for the analysis of all the stocks in the data for specific years.  While the code we wrote worked, it was inefficient due to the fact that the loop had to run 12 times over the entire data set. We knew there was a better way to approach this solution.
 
 We were challenged with developing a new code that would run through the data sheet once, with the same yield. To do this we would have to make a few adjustments to our original code:
 
 1. We reversed the order of the loops
 2. We had to create arrays for the volume, starting price, and ending price of all stocks
-3. Added for loop to sett the arrays all to zero
+3. Added for loop to set the arrays all to zero
 4. Added  for loop to display values in the appropriate cells
 
 The new code is displayed below:
